@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb, #ffebeb);
+}
+
+.card {
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+
+.list-container {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.list-card {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.card-btn {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+}
+
+.emoji-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+.last-card {
+  height: 300px;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.last-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.love-img {
+  height: 30px;
+  width: 30px;
+}
+
+.last-para {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+@media Screen and (max-width: 768px) {
+  .card {
+    height: 300px;
+    width: 400px;
+  }
+  .heading {
+    font-size: 26px;
+  }
+}
